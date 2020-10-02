@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/time_view"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:onClick="onClickStart"
         android:text="@string/start"
         android:freezesText="true"/>
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/start_button"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:onClick="onClickStop"
         android:text="@string/stop"
         android:freezesText="true"/>
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/stop_button"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:onClick="onClickReset"
         android:text="@string/reset"
         android:freezesText="true"/>
